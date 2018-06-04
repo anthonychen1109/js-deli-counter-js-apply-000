@@ -3,7 +3,7 @@ var katzDeli = [];
 function takeANumber(katzDeliLine, name) {
   for (let i = 1; i <= katzDeliLine.length; i++) {
     if (katzDeliLine[i] === name) {
-      return i
+      return `Welcome, ${name}. You are number ${i} in line.`
     }
   }
 }
