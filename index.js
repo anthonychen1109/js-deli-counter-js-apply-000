@@ -1,7 +1,7 @@
 var katzDeli = [];
 
 function takeANumber(katzDeliLine, name) {
-  let katzDeliLine = katzDeli.push(name)
+  katzDeliLine = katzDeli.push(name)
   for (let i = 1; i <= katzDeliLine.length; i++) {
     if (katzDeliLine[i] === name) {
       return `Welcome, ${name}. You are number ${i} in line.`
