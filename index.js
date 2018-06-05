@@ -24,5 +24,6 @@ function currentLine(katzDeli) {
   } else {
     katzDeli.map(function(name, index)) {
       return index+1 : name
+    }
   }
 }
