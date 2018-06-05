@@ -19,7 +19,7 @@ function nowServing(katzDeli) {
 }
 
 function currentLine(katzDeli) {
-  let counter = 0;
+  let counter = 1;
   let line = '';
   if (katzDeli.length === 0) {
     return "The line is currently empty.";
