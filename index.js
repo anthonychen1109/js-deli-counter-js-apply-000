@@ -23,7 +23,7 @@ function currentLine(katzDeli) {
     return "The line is currently empty."
   } else {
     katzDeli.map(function(name, index)) {
-      return index+1 : name
+      return index+ 1: name
     }
   }
 }
