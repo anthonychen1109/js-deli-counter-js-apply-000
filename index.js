@@ -27,7 +27,7 @@ function currentLine(katzDeli) {
     for(let i=0; i<katzDeli.length; i++) {
        line += `${i+1}. ${katzDeli[i]}`;
        if(counter != katzDeli.length) {
-         line += ',';
+         line += ', ';
        }
        counter += 1;
     }
